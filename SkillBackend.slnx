@@ -1,0 +1,24 @@
+<Solution>
+  <Folder Name="/BuildingBlocks/">
+    <Project Path="BuildingBlocks/SharedKernel/SharedKernel.csproj" />
+  </Folder>
+  <Folder Name="/Gateway/">
+    <Project Path="Gateway/ApiGateway/ApiGateway.csproj" />
+  </Folder>
+  <Folder Name="/Services/" />
+  <Folder Name="/Services/AuthService/">
+    <Project Path="Services/AuthService/AuthService.Api/AuthService.Api.csproj" />
+    <Project Path="Services/AuthService/AuthService.Application/AuthService.Application.csproj" />
+    <Project Path="Services/AuthService/AuthService.Domain/AuthService.Domain.csproj" />
+    <Project Path="Services/AuthService/AuthService.Infrastructure/AuthService.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/Services/MeetingService/">
+    <Project Path="Services/MeetingService/MeetingService.Api/MeetingService.Api.csproj" />
+  </Folder>
+  <Folder Name="/Services/ReviewService/">
+    <Project Path="Services/ReviewService/ReviewService.Api/ReviewService.Api.csproj" />
+  </Folder>
+  <Folder Name="/Services/UserService/">
+    <Project Path="Services/UserService/UserService.Api/UserService.Api.csproj" />
+  </Folder>
+</Solution>

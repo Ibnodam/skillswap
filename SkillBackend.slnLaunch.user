@@ -1,0 +1,27 @@
+[
+  {
+    "Name": "Новый профиль",
+    "Projects": [
+      {
+        "Path": "Gateway\\ApiGateway\\ApiGateway.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Services\\AuthService\\AuthService.Api\\AuthService.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Services\\MeetingService\\MeetingService.Api\\MeetingService.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Services\\ReviewService\\ReviewService.Api\\ReviewService.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Services\\UserService\\UserService.Api\\UserService.Api.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

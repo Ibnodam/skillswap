@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Y1NW2QsauAM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\BuildingBlocks\\SharedKernel\\SharedKernel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\valij\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

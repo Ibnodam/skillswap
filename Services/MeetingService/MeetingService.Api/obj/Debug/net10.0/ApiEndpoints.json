@@ -1,0 +1,96 @@
+[
+  {
+    "ContainingType": "MeetingService.Api.Controllers.MeetingsController",
+    "Method": "Create",
+    "RelativePath": "api/meetings",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MeetingService.Api.DTOs.CreateMeetingRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MeetingService.Api.Controllers.MeetingsController",
+    "Method": "GetById",
+    "RelativePath": "api/meetings/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MeetingService.Api.Controllers.MeetingsController",
+    "Method": "UpdateStatus",
+    "RelativePath": "api/meetings/{id}/status",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "MeetingService.Api.DTOs.UpdateStatusRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MeetingService.Api.Controllers.MeetingsController",
+    "Method": "GetCalendar",
+    "RelativePath": "api/meetings/calendar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "month",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MeetingService.Api.Controllers.MeetingsController",
+    "Method": "GetMyMeetings",
+    "RelativePath": "api/meetings/my",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MeetingService.Api.Controllers.MeetingsController",
+    "Method": "UpdatePast",
+    "RelativePath": "api/meetings/update-past",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

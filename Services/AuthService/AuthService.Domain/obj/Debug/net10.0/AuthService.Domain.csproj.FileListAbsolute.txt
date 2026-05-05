@@ -1,0 +1,11 @@
+C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService.Domain\bin\Debug\net10.0\AuthService.Domain.deps.json
+C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService.Domain\bin\Debug\net10.0\AuthService.Domain.dll
+C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService.Domain\bin\Debug\net10.0\AuthService.Domain.pdb
+C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService.Domain\obj\Debug\net10.0\AuthService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService.Domain\obj\Debug\net10.0\AuthService.Domain.AssemblyInfoInputs.cache
+C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService.Domain\obj\Debug\net10.0\AuthService.Domain.AssemblyInfo.cs
+C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService.Domain\obj\Debug\net10.0\AuthService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService.Domain\obj\Debug\net10.0\AuthService.Domain.dll
+C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService.Domain\obj\Debug\net10.0\refint\AuthService.Domain.dll
+C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService.Domain\obj\Debug\net10.0\AuthService.Domain.pdb
+C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService.Domain\obj\Debug\net10.0\ref\AuthService.Domain.dll
