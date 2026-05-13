@@ -16,6 +16,13 @@ public class User
     public bool IsBanned { get; set; } = false;
     public DateTime? BanUntil { get; set; }
 
-    [JsonIgnore]
-    public ICollection<UserSkill> UserSkills { get; set; } = new List<UserSkill>();
+    public bool IsActive { get; set; } = true;
+
+    // === Добавь эти два свойства ===
+    public virtual ICollection<UserSkill> UserSkills { get; set; } = new List<UserSkill>();
+
+
+    public virtual BannedUser? BannedUser { get; set; }   // ← важно
+
+
 }
