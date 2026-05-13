@@ -13,6 +13,9 @@ public class User
     public bool IsPremium { get; set; }
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
+    public bool IsBanned { get; set; } = false;
+    public DateTime? BanUntil { get; set; }
+
     [JsonIgnore]
     public ICollection<UserSkill> UserSkills { get; set; } = new List<UserSkill>();
 }

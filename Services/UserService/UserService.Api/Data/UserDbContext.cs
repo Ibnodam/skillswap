@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using UserService.Api.Models;
+using UsersService.Api.Models;
 
 namespace UserService.Api.Data;
 
@@ -10,6 +11,7 @@ public class UserDbContext : DbContext
     public DbSet<User> Users => Set<User>();
     public DbSet<Skill> Skills => Set<Skill>();
     public DbSet<UserSkill> UserSkills => Set<UserSkill>();
+    public DbSet<UserBan> UserBans => Set<UserBan>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -45,6 +47,14 @@ public class UserDbContext : DbContext
                 .HasForeignKey(us => us.SkillId);
 
             entity.Property(us => us.Type).IsRequired().HasMaxLength(20);
+        });
+
+        modelBuilder.Entity<UserBan>(entity =>
+        {
+            entity.HasOne(b => b.User)
+                  .WithMany()
+                  .HasForeignKey(b => b.UserId)
+                  .OnDelete(DeleteBehavior.Cascade);
         });
     }
 }

@@ -9,18 +9,55 @@ builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
     {
-        policy.AllowAnyOrigin()
+        policy.WithOrigins("http://localhost:5173")
               .AllowAnyHeader()
-              .AllowAnyMethod();
+              .AllowAnyMethod()
+              .AllowCredentials();   // ← Обязательно!
     });
 });
 
 var app = builder.Build();
 
-app.UseCors();
+app.UseWebSockets();
+app.UseCors();                    // ← Должен быть после UseWebSockets
 app.MapReverseProxy();
 
 app.Run();
+
+
+
+
+
+
+
+
+
+
+
+
+//using Yarp.ReverseProxy.Configuration;
+
+//var builder = WebApplication.CreateBuilder(args);
+
+//builder.Services.AddReverseProxy()
+//    .LoadFromConfig(builder.Configuration.GetSection("ReverseProxy"));
+
+//builder.Services.AddCors(options =>
+//{
+//    options.AddDefaultPolicy(policy =>
+//    {
+//        policy.AllowAnyOrigin()
+//              .AllowAnyHeader()
+//              .AllowAnyMethod();
+//    });
+//});
+
+//var app = builder.Build();
+//app.UseWebSockets(); // Важно для SignalR!
+//app.UseCors();
+//app.MapReverseProxy();
+
+//app.Run();
 
 
 

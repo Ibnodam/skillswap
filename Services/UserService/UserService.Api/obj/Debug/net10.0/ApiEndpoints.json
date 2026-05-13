@@ -38,6 +38,27 @@
   },
   {
     "ContainingType": "UserService.Api.Controllers.UsersController",
+    "Method": "GetUserSkills",
+    "RelativePath": "api/users/{userId}/skills/{type}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "type",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserService.Api.Controllers.UsersController",
     "Method": "CreateInternal",
     "RelativePath": "api/users/internal",
     "HttpMethod": "POST",

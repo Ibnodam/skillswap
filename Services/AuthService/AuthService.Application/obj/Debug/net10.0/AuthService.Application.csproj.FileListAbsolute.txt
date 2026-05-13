@@ -13,3 +13,4 @@ C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService
 C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService.Application\obj\Debug\net10.0\refint\AuthService.Application.dll
 C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService.Application\obj\Debug\net10.0\AuthService.Application.pdb
 C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService.Application\obj\Debug\net10.0\ref\AuthService.Application.dll
+C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService.Application\obj\Debug\net10.0\AuthService.Application.sourcelink.json

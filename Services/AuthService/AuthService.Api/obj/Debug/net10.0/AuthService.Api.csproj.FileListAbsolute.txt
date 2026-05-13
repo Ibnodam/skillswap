@@ -58,4 +58,6 @@ C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService
 C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService.Api\obj\Debug\net10.0\AuthService.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService.Api\obj\Debug\net10.0\AuthService.Api.sourcelink.json
 C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService.Api\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

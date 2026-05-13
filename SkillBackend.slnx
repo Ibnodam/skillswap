@@ -15,6 +15,9 @@
   <Folder Name="/Services/MeetingService/">
     <Project Path="Services/MeetingService/MeetingService.Api/MeetingService.Api.csproj" />
   </Folder>
+  <Folder Name="/Services/MessagingService/">
+    <Project Path="Services/MessagingService/MessagingService.Api/MessagingService.Api.csproj" />
+  </Folder>
   <Folder Name="/Services/ReviewService/">
     <Project Path="Services/ReviewService/ReviewService.Api/ReviewService.Api.csproj" />
   </Folder>

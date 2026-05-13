@@ -51,3 +51,4 @@ C:\Users\valij\1_Academic_Projects\SkillBackend\Services\ReviewService\ReviewSer
 C:\Users\valij\1_Academic_Projects\SkillBackend\Services\ReviewService\ReviewService.Api\obj\Debug\net10.0\ReviewService.Api.pdb
 C:\Users\valij\1_Academic_Projects\SkillBackend\Services\ReviewService\ReviewService.Api\obj\Debug\net10.0\ReviewService.Api.genruntimeconfig.cache
 C:\Users\valij\1_Academic_Projects\SkillBackend\Services\ReviewService\ReviewService.Api\obj\Debug\net10.0\ref\ReviewService.Api.dll
+C:\Users\valij\1_Academic_Projects\SkillBackend\Services\ReviewService\ReviewService.Api\obj\Debug\net10.0\ReviewService.Api.sourcelink.json

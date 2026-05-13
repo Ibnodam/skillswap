@@ -10,3 +10,4 @@ C:\Users\valij\1_Academic_Projects\SkillBackend\BuildingBlocks\SharedKernel\obj\
 C:\Users\valij\1_Academic_Projects\SkillBackend\BuildingBlocks\SharedKernel\obj\Debug\net10.0\refint\SharedKernel.dll
 C:\Users\valij\1_Academic_Projects\SkillBackend\BuildingBlocks\SharedKernel\obj\Debug\net10.0\SharedKernel.pdb
 C:\Users\valij\1_Academic_Projects\SkillBackend\BuildingBlocks\SharedKernel\obj\Debug\net10.0\ref\SharedKernel.dll
+C:\Users\valij\1_Academic_Projects\SkillBackend\BuildingBlocks\SharedKernel\obj\Debug\net10.0\SharedKernel.sourcelink.json

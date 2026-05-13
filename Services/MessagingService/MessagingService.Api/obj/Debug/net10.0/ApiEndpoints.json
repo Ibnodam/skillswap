@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "MessagingService.Api.Controllers.MessagesController",
+    "Method": "GetMessages",
+    "RelativePath": "api/messages/{otherUserId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "otherUserId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "skip",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "take",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MessagingService.Api.Controllers.MessagesController",
+    "Method": "GetMyChats",
+    "RelativePath": "api/messages/chats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

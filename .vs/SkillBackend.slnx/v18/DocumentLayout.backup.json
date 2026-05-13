@@ -1,0 +1,221 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A00B8E54-69CD-2F96-8613-6B81A7E2FF74}|Services\\AuthService\\AuthService.Application\\AuthService.Application.csproj|c:\\users\\valij\\1_academic_projects\\skillbackend\\services\\authservice\\authservice.application\\dtos\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00B8E54-69CD-2F96-8613-6B81A7E2FF74}|Services\\AuthService\\AuthService.Application\\AuthService.Application.csproj|solutionrelative:services\\authservice\\authservice.application\\dtos\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2B71B70-CA76-7E75-E903-B7F8CE45D092}|Services\\AuthService\\AuthService.Api\\AuthService.Api.csproj|c:\\users\\valij\\1_academic_projects\\skillbackend\\services\\authservice\\authservice.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2B71B70-CA76-7E75-E903-B7F8CE45D092}|Services\\AuthService\\AuthService.Api\\AuthService.Api.csproj|solutionrelative:services\\authservice\\authservice.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F14D0A0C-C759-2B54-9247-BAE56CA8C386}|Services\\AuthService\\AuthService.Infrastructure\\AuthService.Infrastructure.csproj|c:\\users\\valij\\1_academic_projects\\skillbackend\\services\\authservice\\authservice.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F14D0A0C-C759-2B54-9247-BAE56CA8C386}|Services\\AuthService\\AuthService.Infrastructure\\AuthService.Infrastructure.csproj|solutionrelative:services\\authservice\\authservice.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00B8E54-69CD-2F96-8613-6B81A7E2FF74}|Services\\AuthService\\AuthService.Application\\AuthService.Application.csproj|c:\\users\\valij\\1_academic_projects\\skillbackend\\services\\authservice\\authservice.application\\commands\\login\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00B8E54-69CD-2F96-8613-6B81A7E2FF74}|Services\\AuthService\\AuthService.Application\\AuthService.Application.csproj|solutionrelative:services\\authservice\\authservice.application\\commands\\login\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F14D0A0C-C759-2B54-9247-BAE56CA8C386}|Services\\AuthService\\AuthService.Infrastructure\\AuthService.Infrastructure.csproj|c:\\users\\valij\\1_academic_projects\\skillbackend\\services\\authservice\\authservice.infrastructure\\repositories\\refreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F14D0A0C-C759-2B54-9247-BAE56CA8C386}|Services\\AuthService\\AuthService.Infrastructure\\AuthService.Infrastructure.csproj|solutionrelative:services\\authservice\\authservice.infrastructure\\repositories\\refreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DA4B838-546B-26BD-C672-E19B69BD21DD}|Services\\AuthService\\AuthService.Domain\\AuthService.Domain.csproj|c:\\users\\valij\\1_academic_projects\\skillbackend\\services\\authservice\\authservice.domain\\repositories\\irefreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DA4B838-546B-26BD-C672-E19B69BD21DD}|Services\\AuthService\\AuthService.Domain\\AuthService.Domain.csproj|solutionrelative:services\\authservice\\authservice.domain\\repositories\\irefreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00B8E54-69CD-2F96-8613-6B81A7E2FF74}|Services\\AuthService\\AuthService.Application\\AuthService.Application.csproj|c:\\users\\valij\\1_academic_projects\\skillbackend\\services\\authservice\\authservice.application\\commands\\register\\registerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00B8E54-69CD-2F96-8613-6B81A7E2FF74}|Services\\AuthService\\AuthService.Application\\AuthService.Application.csproj|solutionrelative:services\\authservice\\authservice.application\\commands\\register\\registerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00B8E54-69CD-2F96-8613-6B81A7E2FF74}|Services\\AuthService\\AuthService.Application\\AuthService.Application.csproj|c:\\users\\valij\\1_academic_projects\\skillbackend\\services\\authservice\\authservice.application\\dtos\\refreshtokenrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00B8E54-69CD-2F96-8613-6B81A7E2FF74}|Services\\AuthService\\AuthService.Application\\AuthService.Application.csproj|solutionrelative:services\\authservice\\authservice.application\\dtos\\refreshtokenrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00B8E54-69CD-2F96-8613-6B81A7E2FF74}|Services\\AuthService\\AuthService.Application\\AuthService.Application.csproj|c:\\users\\valij\\1_academic_projects\\skillbackend\\services\\authservice\\authservice.application\\commands\\refreshtoken\\refreshtokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00B8E54-69CD-2F96-8613-6B81A7E2FF74}|Services\\AuthService\\AuthService.Application\\AuthService.Application.csproj|solutionrelative:services\\authservice\\authservice.application\\commands\\refreshtoken\\refreshtokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00B8E54-69CD-2F96-8613-6B81A7E2FF74}|Services\\AuthService\\AuthService.Application\\AuthService.Application.csproj|c:\\users\\valij\\1_academic_projects\\skillbackend\\services\\authservice\\authservice.application\\commands\\refreshtoken\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00B8E54-69CD-2F96-8613-6B81A7E2FF74}|Services\\AuthService\\AuthService.Application\\AuthService.Application.csproj|solutionrelative:services\\authservice\\authservice.application\\commands\\refreshtoken\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F14D0A0C-C759-2B54-9247-BAE56CA8C386}|Services\\AuthService\\AuthService.Infrastructure\\AuthService.Infrastructure.csproj|c:\\users\\valij\\1_academic_projects\\skillbackend\\services\\authservice\\authservice.infrastructure\\services\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F14D0A0C-C759-2B54-9247-BAE56CA8C386}|Services\\AuthService\\AuthService.Infrastructure\\AuthService.Infrastructure.csproj|solutionrelative:services\\authservice\\authservice.infrastructure\\services\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00B8E54-69CD-2F96-8613-6B81A7E2FF74}|Services\\AuthService\\AuthService.Application\\AuthService.Application.csproj|c:\\users\\valij\\1_academic_projects\\skillbackend\\services\\authservice\\authservice.application\\interfaces\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00B8E54-69CD-2F96-8613-6B81A7E2FF74}|Services\\AuthService\\AuthService.Application\\AuthService.Application.csproj|solutionrelative:services\\authservice\\authservice.application\\interfaces\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\Services\\AuthService\\AuthService.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService\\AuthService.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\Services\\AuthService\\AuthService.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Services\\AuthService\\AuthService.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T12:35:15.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RefreshTokenRepository.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\Services\\AuthService\\AuthService.Infrastructure\\Repositories\\RefreshTokenRepository.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService\\AuthService.Infrastructure\\Repositories\\RefreshTokenRepository.cs",
+              "ToolTip": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\Services\\AuthService\\AuthService.Infrastructure\\Repositories\\RefreshTokenRepository.cs",
+              "RelativeToolTip": "Services\\AuthService\\AuthService.Infrastructure\\Repositories\\RefreshTokenRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T12:33:34.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRefreshTokenRepository.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\Services\\AuthService\\AuthService.Domain\\Repositories\\IRefreshTokenRepository.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService\\AuthService.Domain\\Repositories\\IRefreshTokenRepository.cs",
+              "ToolTip": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\Services\\AuthService\\AuthService.Domain\\Repositories\\IRefreshTokenRepository.cs",
+              "RelativeToolTip": "Services\\AuthService\\AuthService.Domain\\Repositories\\IRefreshTokenRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T12:32:57.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegisterHandler.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\Services\\AuthService\\AuthService.Application\\Commands\\Register\\RegisterHandler.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService\\AuthService.Application\\Commands\\Register\\RegisterHandler.cs",
+              "ToolTip": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\Services\\AuthService\\AuthService.Application\\Commands\\Register\\RegisterHandler.cs",
+              "RelativeToolTip": "Services\\AuthService\\AuthService.Application\\Commands\\Register\\RegisterHandler.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T12:29:52.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RefreshTokenRequest.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\Services\\AuthService\\AuthService.Application\\DTOs\\RefreshTokenRequest.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService\\AuthService.Application\\DTOs\\RefreshTokenRequest.cs",
+              "ToolTip": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\Services\\AuthService\\AuthService.Application\\DTOs\\RefreshTokenRequest.cs",
+              "RelativeToolTip": "Services\\AuthService\\AuthService.Application\\DTOs\\RefreshTokenRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T12:29:30.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\Services\\AuthService\\AuthService.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService\\AuthService.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\Services\\AuthService\\AuthService.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Services\\AuthService\\AuthService.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAYwFoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T12:28:50.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthResponse.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\Services\\AuthService\\AuthService.Application\\DTOs\\AuthResponse.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService\\AuthService.Application\\DTOs\\AuthResponse.cs",
+              "ToolTip": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\Services\\AuthService\\AuthService.Application\\DTOs\\AuthResponse.cs",
+              "RelativeToolTip": "Services\\AuthService\\AuthService.Application\\DTOs\\AuthResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T12:28:27.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginHandler.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\Services\\AuthService\\AuthService.Application\\Commands\\Login\\LoginHandler.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService\\AuthService.Application\\Commands\\Login\\LoginHandler.cs",
+              "ToolTip": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\Services\\AuthService\\AuthService.Application\\Commands\\Login\\LoginHandler.cs",
+              "RelativeToolTip": "Services\\AuthService\\AuthService.Application\\Commands\\Login\\LoginHandler.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T12:27:43.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RefreshTokenHandler.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\Services\\AuthService\\AuthService.Application\\Commands\\RefreshToken\\RefreshTokenHandler.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService\\AuthService.Application\\Commands\\RefreshToken\\RefreshTokenHandler.cs",
+              "ToolTip": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\Services\\AuthService\\AuthService.Application\\Commands\\RefreshToken\\RefreshTokenHandler.cs",
+              "RelativeToolTip": "Services\\AuthService\\AuthService.Application\\Commands\\RefreshToken\\RefreshTokenHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T12:27:07.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\Services\\AuthService\\AuthService.Application\\Commands\\RefreshToken\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService\\AuthService.Application\\Commands\\RefreshToken\\RefreshToken.cs",
+              "ToolTip": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\Services\\AuthService\\AuthService.Application\\Commands\\RefreshToken\\RefreshToken.cs",
+              "RelativeToolTip": "Services\\AuthService\\AuthService.Application\\Commands\\RefreshToken\\RefreshToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T12:26:42.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IJwtProvider.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\Services\\AuthService\\AuthService.Application\\Interfaces\\IJwtProvider.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService\\AuthService.Application\\Interfaces\\IJwtProvider.cs",
+              "ToolTip": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\Services\\AuthService\\AuthService.Application\\Interfaces\\IJwtProvider.cs",
+              "RelativeToolTip": "Services\\AuthService\\AuthService.Application\\Interfaces\\IJwtProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T12:16:03.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JwtProvider.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\Services\\AuthService\\AuthService.Infrastructure\\Services\\JwtProvider.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService\\AuthService.Infrastructure\\Services\\JwtProvider.cs",
+              "ToolTip": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\Services\\AuthService\\AuthService.Infrastructure\\Services\\JwtProvider.cs",
+              "RelativeToolTip": "Services\\AuthService\\AuthService.Infrastructure\\Services\\JwtProvider.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEsAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T12:14:30.284Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

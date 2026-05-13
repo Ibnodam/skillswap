@@ -51,3 +51,4 @@ C:\Users\valij\1_Academic_Projects\SkillBackend\Services\MeetingService\MeetingS
 C:\Users\valij\1_Academic_Projects\SkillBackend\Services\MeetingService\MeetingService.Api\obj\Debug\net10.0\MeetingService.Api.pdb
 C:\Users\valij\1_Academic_Projects\SkillBackend\Services\MeetingService\MeetingService.Api\obj\Debug\net10.0\MeetingService.Api.genruntimeconfig.cache
 C:\Users\valij\1_Academic_Projects\SkillBackend\Services\MeetingService\MeetingService.Api\obj\Debug\net10.0\ref\MeetingService.Api.dll
+C:\Users\valij\1_Academic_Projects\SkillBackend\Services\MeetingService\MeetingService.Api\obj\Debug\net10.0\MeetingService.Api.sourcelink.json

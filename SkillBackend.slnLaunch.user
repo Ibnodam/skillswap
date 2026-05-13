@@ -21,6 +21,10 @@
       {
         "Path": "Services\\UserService\\UserService.Api\\UserService.Api.csproj",
         "Action": "Start"
+      },
+      {
+        "Path": "Services\\MessagingService\\MessagingService.Api\\MessagingService.Api.csproj",
+        "Action": "Start"
       }
     ]
   }

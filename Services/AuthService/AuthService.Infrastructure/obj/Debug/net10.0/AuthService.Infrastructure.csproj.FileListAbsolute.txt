@@ -15,3 +15,4 @@ C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService
 C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService.Infrastructure\obj\Debug\net10.0\refint\AuthService.Infrastructure.dll
 C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService.Infrastructure\obj\Debug\net10.0\AuthService.Infrastructure.pdb
 C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService.Infrastructure\obj\Debug\net10.0\ref\AuthService.Infrastructure.dll
+C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService.Infrastructure\obj\Debug\net10.0\AuthService.Infrastructure.sourcelink.json

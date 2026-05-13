@@ -9,3 +9,4 @@ C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService
 C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService.Domain\obj\Debug\net10.0\refint\AuthService.Domain.dll
 C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService.Domain\obj\Debug\net10.0\AuthService.Domain.pdb
 C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService.Domain\obj\Debug\net10.0\ref\AuthService.Domain.dll
+C:\Users\valij\1_Academic_Projects\SkillBackend\Services\AuthService\AuthService.Domain\obj\Debug\net10.0\AuthService.Domain.sourcelink.json
