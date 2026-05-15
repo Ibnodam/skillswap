@@ -20,10 +20,35 @@ public class RefreshTokenRepository : IRefreshTokenRepository
         await _context.SaveChangesAsync(ct);
     }
 
+    //public async Task<RefreshToken?> GetByTokenAsync(string token, CancellationToken ct = default)
+    //{
+    //    return await _context.RefreshTokens
+    //        .FirstOrDefaultAsync(rt => rt.Token == token && rt.IsActive, ct);
+    //}
+
     public async Task<RefreshToken?> GetByTokenAsync(string token, CancellationToken ct = default)
     {
         return await _context.RefreshTokens
-            .FirstOrDefaultAsync(rt => rt.Token == token && rt.IsActive, ct);
+            .FirstOrDefaultAsync(rt =>
+                rt.Token == token
+                && rt.RevokedAt == null
+                && rt.ExpiresAt > DateTime.UtcNow,
+                ct);
+    }
+
+    public async Task RevokeAllUserTokensAsync(Guid userId, CancellationToken ct = default)
+    {
+        var tokens = await _context.RefreshTokens
+            .Where(rt =>
+                rt.UserId == userId
+                && rt.RevokedAt == null
+                && rt.ExpiresAt > DateTime.UtcNow)
+            .ToListAsync(ct);
+
+        foreach (var token in tokens)
+            token.RevokedAt = DateTime.UtcNow;
+
+        await _context.SaveChangesAsync(ct);
     }
 
     public async Task UpdateAsync(RefreshToken refreshToken, CancellationToken ct = default)
@@ -32,15 +57,15 @@ public class RefreshTokenRepository : IRefreshTokenRepository
         await _context.SaveChangesAsync(ct);
     }
 
-    public async Task RevokeAllUserTokensAsync(Guid userId, CancellationToken ct = default)
-    {
-        var tokens = await _context.RefreshTokens
-            .Where(rt => rt.UserId == userId && rt.IsActive)
-            .ToListAsync(ct);
+    //public async Task RevokeAllUserTokensAsync(Guid userId, CancellationToken ct = default)
+    //{
+    //    var tokens = await _context.RefreshTokens
+    //        .Where(rt => rt.UserId == userId && rt.IsActive)
+    //        .ToListAsync(ct);
 
-        foreach (var token in tokens)
-            token.RevokedAt = DateTime.UtcNow;
+    //    foreach (var token in tokens)
+    //        token.RevokedAt = DateTime.UtcNow;
 
-        await _context.SaveChangesAsync(ct);
-    }
+    //    await _context.SaveChangesAsync(ct);
+    //}
 }

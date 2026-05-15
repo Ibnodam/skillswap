@@ -34,5 +34,26 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MessagingService.Api.Controllers.MessagesController",
+    "Method": "CheckContact",
+    "RelativePath": "api/messages/check-contact",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId1",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "userId2",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

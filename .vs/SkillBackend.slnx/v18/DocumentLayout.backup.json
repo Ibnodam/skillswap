@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{56A14AC8-2F97-9895-BCAF-AF816DE1BBCD}|Services\\UserService\\UserService.Api\\UserService.Api.csproj|c:\\users\\valij\\1_academic_projects\\skillbackend\\services\\userservice\\userservice.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56A14AC8-2F97-9895-BCAF-AF816DE1BBCD}|Services\\UserService\\UserService.Api\\UserService.Api.csproj|solutionrelative:services\\userservice\\userservice.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25DA03D5-E8CB-4C04-AF69-DD0B9EC64983}|UnitTests\\UnitTests.csproj|c:\\users\\valij\\1_academic_projects\\skillbackend\\unittests\\unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{25DA03D5-E8CB-4C04-AF69-DD0B9EC64983}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56A14AC8-2F97-9895-BCAF-AF816DE1BBCD}|Services\\UserService\\UserService.Api\\UserService.Api.csproj|c:\\users\\valij\\1_academic_projects\\skillbackend\\services\\userservice\\userservice.api\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56A14AC8-2F97-9895-BCAF-AF816DE1BBCD}|Services\\UserService\\UserService.Api\\UserService.Api.csproj|solutionrelative:services\\userservice\\userservice.api\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25DA03D5-E8CB-4C04-AF69-DD0B9EC64983}|UnitTests\\UnitTests.csproj|c:\\users\\valij\\1_academic_projects\\skillbackend\\unittests\\userservicetests\\getmymeetingstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25DA03D5-E8CB-4C04-AF69-DD0B9EC64983}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\userservicetests\\getmymeetingstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25DA03D5-E8CB-4C04-AF69-DD0B9EC64983}|UnitTests\\UnitTests.csproj|c:\\users\\valij\\1_academic_projects\\skillbackend\\unittests\\authservice\\logintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25DA03D5-E8CB-4C04-AF69-DD0B9EC64983}|UnitTests\\UnitTests.csproj|solutionrelative:unittests\\authservice\\logintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -29,29 +33,62 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\Services\\UserService\\UserService.Api\\Data\\UserDbContext.cs",
-              "RelativeDocumentMoniker": "Services\\UserService\\UserService.Api\\Data\\UserDbContext.cs",
-              "ToolTip": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\Services\\UserService\\UserService.Api\\Data\\UserDbContext.cs",
-              "RelativeToolTip": "Services\\UserService\\UserService.Api\\Data\\UserDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T23:21:01.554Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\Services\\UserService\\UserService.Api\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Services\\UserService\\UserService.Api\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\Services\\UserService\\UserService.Api\\Controllers\\AdminController.cs*",
-              "RelativeToolTip": "Services\\UserService\\UserService.Api\\Controllers\\AdminController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "Title": "UnitTests",
+              "DocumentMoniker": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\UnitTests\\UnitTests.csproj",
+              "RelativeDocumentMoniker": "UnitTests\\UnitTests.csproj",
+              "ToolTip": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\UnitTests\\UnitTests.csproj",
+              "RelativeToolTip": "UnitTests\\UnitTests.csproj",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAswCIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-15T10:59:11.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginTests.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\UnitTests\\AuthService\\LoginTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\AuthService\\LoginTests.cs",
+              "ToolTip": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\UnitTests\\AuthService\\LoginTests.cs",
+              "RelativeToolTip": "UnitTests\\AuthService\\LoginTests.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T23:03:49.239Z",
+              "WhenOpened": "2026-05-15T10:11:14.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetMyMeetingsTests.cs",
+              "DocumentMoniker": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\UnitTests\\UserServiceTests\\GetMyMeetingsTests.cs",
+              "RelativeDocumentMoniker": "UnitTests\\UserServiceTests\\GetMyMeetingsTests.cs",
+              "ToolTip": "C:\\Users\\valij\\1_Academic_Projects\\SkillBackend\\UnitTests\\UserServiceTests\\GetMyMeetingsTests.cs",
+              "RelativeToolTip": "UnitTests\\UserServiceTests\\GetMyMeetingsTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T10:10:17.022Z",
               "EditorCaption": ""
             }
           ]

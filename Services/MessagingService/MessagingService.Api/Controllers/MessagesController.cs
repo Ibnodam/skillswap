@@ -201,7 +201,16 @@ public class MessagesController : ControllerBase
 
 
 
+    [HttpGet("check-contact")]
+    public async Task<ActionResult> CheckContact([FromQuery] Guid userId1, [FromQuery] Guid userId2)
+    {
+        var hasContact = await _context.Messages
+            .AnyAsync(m =>
+                (m.SenderId == userId1 && m.ReceiverId == userId2) ||
+                (m.SenderId == userId2 && m.ReceiverId == userId1));
 
+        return Ok(hasContact);
+    }
 
 
 

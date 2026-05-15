@@ -19,6 +19,21 @@ public class MeetingsController : ControllerBase
         _context = context;
     }
 
+
+
+    // В MeetingsController.cs
+    [HttpGet("check-contact")]
+    public async Task<ActionResult> CheckContact([FromQuery] Guid userId1, [FromQuery] Guid userId2)
+    {
+        var hasContact = await _context.Meetings
+            .AnyAsync(m =>
+                (m.RequesterId == userId1 && m.ReceiverId == userId2) ||
+                (m.RequesterId == userId2 && m.ReceiverId == userId1));
+
+        return Ok(hasContact);
+    }
+
+
     [HttpGet("my")]
     public async Task<ActionResult> GetMyMeetings()
     {
@@ -119,43 +134,19 @@ public class MeetingsController : ControllerBase
             if (userId == Guid.Empty)
                 return Unauthorized(new { message = "Токен не предоставлен" });
 
-            if (request.ReceiverId == Guid.Empty || request.SkillId == Guid.Empty)
-                return BadRequest(new { message = "ReceiverId и SkillId обязательны" });
+            if (request.ReceiverId == Guid.Empty)
+                return BadRequest(new { message = "ReceiverId обязателен" });
 
             if (userId == request.ReceiverId)
                 return BadRequest(new { message = "Нельзя создать встречу с самим собой" });
-
-            // === Получаем настоящее имя получателя ===
-            string receiverName = "Пользователь"; // fallback
-
-            try
-            {
-                using var httpClient = new HttpClient();
-                httpClient.DefaultRequestHeaders.Authorization =
-                    new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer",
-                        Request.Headers["Authorization"].FirstOrDefault()?.Replace("Bearer ", ""));
-
-                var response = await httpClient.GetAsync($"http://localhost:5002/api/users/{request.ReceiverId}");
-
-                if (response.IsSuccessStatusCode)
-                {
-                    var userData = await response.Content.ReadFromJsonAsync<JsonElement>();
-                    receiverName = userData.GetProperty("name").GetString() ?? "Пользователь";
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Не удалось получить имя пользователя: {ex.Message}");
-                // остаётся fallback "Пользователь"
-            }
 
             var meeting = new Meeting
             {
                 Id = Guid.NewGuid(),
                 RequesterId = userId,
-                RequesterName = string.IsNullOrEmpty(userName) ? "Неизвестный пользователь" : userName,
+                RequesterName = userName ?? "Пользователь",
                 ReceiverId = request.ReceiverId,
-                ReceiverName = receiverName,                    // ← Теперь реальное имя
+                ReceiverName = "Пользователь", // Будет обновлено позже или через WebSocket
                 SkillId = request.SkillId,
                 SkillName = request.SkillName ?? "",
                 Date = DateTime.SpecifyKind(request.Date.Date, DateTimeKind.Utc),
@@ -183,6 +174,84 @@ public class MeetingsController : ControllerBase
             return StatusCode(500, new { message = "Внутренняя ошибка сервера" });
         }
     }
+
+
+
+    //[HttpPost]
+    //public async Task<ActionResult> Create([FromBody] CreateMeetingRequest request)
+    //{
+    //    try
+    //    {
+    //        var userId = JwtMiddleware.GetUserId(HttpContext);
+    //        var userName = JwtMiddleware.GetUserName(HttpContext);
+
+    //        if (userId == Guid.Empty)
+    //            return Unauthorized(new { message = "Токен не предоставлен" });
+
+    //        if (request.ReceiverId == Guid.Empty || request.SkillId == Guid.Empty)
+    //            return BadRequest(new { message = "ReceiverId и SkillId обязательны" });
+
+    //        if (userId == request.ReceiverId)
+    //            return BadRequest(new { message = "Нельзя создать встречу с самим собой" });
+
+    //        // === Получаем настоящее имя получателя ===
+    //        string receiverName = "Пользователь"; // fallback
+
+    //        try
+    //        {
+    //            using var httpClient = new HttpClient();
+    //            httpClient.DefaultRequestHeaders.Authorization =
+    //                new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer",
+    //                    Request.Headers["Authorization"].FirstOrDefault()?.Replace("Bearer ", ""));
+
+    //            var response = await httpClient.GetAsync($"http://localhost:5002/api/users/{request.ReceiverId}");
+
+    //            if (response.IsSuccessStatusCode)
+    //            {
+    //                var userData = await response.Content.ReadFromJsonAsync<JsonElement>();
+    //                receiverName = userData.GetProperty("name").GetString() ?? "Пользователь";
+    //            }
+    //        }
+    //        catch (Exception ex)
+    //        {
+    //            Console.WriteLine($"Не удалось получить имя пользователя: {ex.Message}");
+    //            // остаётся fallback "Пользователь"
+    //        }
+
+    //        var meeting = new Meeting
+    //        {
+    //            Id = Guid.NewGuid(),
+    //            RequesterId = userId,
+    //            RequesterName = string.IsNullOrEmpty(userName) ? "Неизвестный пользователь" : userName,
+    //            ReceiverId = request.ReceiverId,
+    //            ReceiverName = receiverName,                    // ← Теперь реальное имя
+    //            SkillId = request.SkillId,
+    //            SkillName = request.SkillName ?? "",
+    //            Date = DateTime.SpecifyKind(request.Date.Date, DateTimeKind.Utc),
+    //            Time = request.Time ?? "00:00",
+    //            Duration = request.Duration > 0 ? request.Duration : 60,
+    //            Format = request.Format ?? "online",
+    //            Topic = request.Topic?.Trim(),
+    //            Comment = request.Comment?.Trim(),
+    //            Status = "pending",
+    //            CreatedAt = DateTime.UtcNow
+    //        };
+
+    //        _context.Meetings.Add(meeting);
+    //        await _context.SaveChangesAsync();
+
+    //        return Ok(new
+    //        {
+    //            message = "Встреча успешно создана",
+    //            meetingId = meeting.Id
+    //        });
+    //    }
+    //    catch (Exception ex)
+    //    {
+    //        Console.WriteLine($"[CreateMeeting] Ошибка: {ex.Message}");
+    //        return StatusCode(500, new { message = "Внутренняя ошибка сервера" });
+    //    }
+    //}
 
 
     // Работало, но в карточке имя пользователя не отображалось :(

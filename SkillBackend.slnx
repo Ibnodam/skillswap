@@ -24,4 +24,7 @@
   <Folder Name="/Services/UserService/">
     <Project Path="Services/UserService/UserService.Api/UserService.Api.csproj" />
   </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="UnitTests/UnitTests.csproj" Id="25da03d5-e8cb-4c04-af69-dd0b9ec64983" />
+  </Folder>
 </Solution>

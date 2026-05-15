@@ -19,7 +19,7 @@ builder.Services.AddCors(options =>
 var app = builder.Build();
 
 app.UseWebSockets();
-app.UseCors();                    // ← Должен быть после UseWebSockets
+app.UseCors();                  
 app.MapReverseProxy();
 
 app.Run();

@@ -11,3 +11,16 @@ C:\Users\valij\1_Academic_Projects\SkillBackend\BuildingBlocks\SharedKernel\obj\
 C:\Users\valij\1_Academic_Projects\SkillBackend\BuildingBlocks\SharedKernel\obj\Debug\net10.0\SharedKernel.pdb
 C:\Users\valij\1_Academic_Projects\SkillBackend\BuildingBlocks\SharedKernel\obj\Debug\net10.0\ref\SharedKernel.dll
 C:\Users\valij\1_Academic_Projects\SkillBackend\BuildingBlocks\SharedKernel\obj\Debug\net10.0\SharedKernel.sourcelink.json
+C:\Users\valij\OneDrive\Desktop\SkillBackend\BuildingBlocks\SharedKernel\bin\Debug\net10.0\SharedKernel.deps.json
+C:\Users\valij\OneDrive\Desktop\SkillBackend\BuildingBlocks\SharedKernel\bin\Debug\net10.0\SharedKernel.dll
+C:\Users\valij\OneDrive\Desktop\SkillBackend\BuildingBlocks\SharedKernel\bin\Debug\net10.0\SharedKernel.pdb
+C:\Users\valij\OneDrive\Desktop\SkillBackend\BuildingBlocks\SharedKernel\obj\Debug\net10.0\SharedKernel.csproj.AssemblyReference.cache
+C:\Users\valij\OneDrive\Desktop\SkillBackend\BuildingBlocks\SharedKernel\obj\Debug\net10.0\SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\valij\OneDrive\Desktop\SkillBackend\BuildingBlocks\SharedKernel\obj\Debug\net10.0\SharedKernel.AssemblyInfoInputs.cache
+C:\Users\valij\OneDrive\Desktop\SkillBackend\BuildingBlocks\SharedKernel\obj\Debug\net10.0\SharedKernel.AssemblyInfo.cs
+C:\Users\valij\OneDrive\Desktop\SkillBackend\BuildingBlocks\SharedKernel\obj\Debug\net10.0\SharedKernel.csproj.CoreCompileInputs.cache
+C:\Users\valij\OneDrive\Desktop\SkillBackend\BuildingBlocks\SharedKernel\obj\Debug\net10.0\SharedKernel.sourcelink.json
+C:\Users\valij\OneDrive\Desktop\SkillBackend\BuildingBlocks\SharedKernel\obj\Debug\net10.0\SharedKernel.dll
+C:\Users\valij\OneDrive\Desktop\SkillBackend\BuildingBlocks\SharedKernel\obj\Debug\net10.0\refint\SharedKernel.dll
+C:\Users\valij\OneDrive\Desktop\SkillBackend\BuildingBlocks\SharedKernel\obj\Debug\net10.0\SharedKernel.pdb
+C:\Users\valij\OneDrive\Desktop\SkillBackend\BuildingBlocks\SharedKernel\obj\Debug\net10.0\ref\SharedKernel.dll

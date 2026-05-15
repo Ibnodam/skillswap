@@ -75,6 +75,27 @@
   },
   {
     "ContainingType": "MeetingService.Api.Controllers.MeetingsController",
+    "Method": "CheckContact",
+    "RelativePath": "api/meetings/check-contact",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId1",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "userId2",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MeetingService.Api.Controllers.MeetingsController",
     "Method": "GetMyMeetings",
     "RelativePath": "api/meetings/my",
     "HttpMethod": "GET",

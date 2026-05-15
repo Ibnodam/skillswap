@@ -11,13 +11,22 @@ public class ReviewDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+
         modelBuilder.Entity<Review>(entity =>
         {
             entity.ToTable("reviews");
             entity.HasKey(r => r.Id);
             entity.Property(r => r.FromUserName).IsRequired().HasMaxLength(100);
             entity.Property(r => r.ToUserName).IsRequired().HasMaxLength(100);
-            entity.Property(r => r.Text).IsRequired().HasMaxLength(1000);
+            entity.Property(r => r.Text).HasMaxLength(500); // ← Изменил на 500
         });
+        //modelBuilder.Entity<Review>(entity =>
+        //{
+        //    entity.ToTable("reviews");
+        //    entity.HasKey(r => r.Id);
+        //    entity.Property(r => r.FromUserName).IsRequired().HasMaxLength(100);
+        //    entity.Property(r => r.ToUserName).IsRequired().HasMaxLength(100);
+        //    entity.Property(r => r.Text).IsRequired().HasMaxLength(500);
+        //});
     }
 }
